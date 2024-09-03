@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import Category from './Category.jsx'
 import '../App.css'
+import Button from './Button.jsx'
 
 export default function Layout() {
   const options = ["autos", "cpu", "gpu"]

@@ -15,9 +15,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<div>Choose a quiz</div>} />
-              <Route path="autos" element={<Quiz />} />
-              <Route path="cpu" element={<Quiz />} />
-              <Route path="gpu" element={<Quiz />} />
+              <Route path="autos" element={<div />} />
+              {/*<Route path="cpu" element={<Quiz />} />
+              <Route path="gpu" element={<Quiz />} />*/}
           </Route>
         </Routes>
       </div>
