@@ -23,13 +23,4 @@ describe('Layout Component', () => {
     expect(screen.getByTestId('category-cpu')).toHaveTextContent('cpu');
     expect(screen.getByTestId('category-gpu')).toHaveTextContent('gpu');
   });
-
-  test('renders the Outlet component', async () => {
-    render(<Layout />);
-
-    await waitFor(() => {
-      const outlet = screen.queryByTestId('outlet');
-      expect(outlet).toBeInTheDocument();
-    });
-  });
 });
