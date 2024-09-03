@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css'
 import Category from './components/Category.jsx'
 import Layout from './components/Layout.jsx'
+import Quiz from './components/Quiz.jsx'
 
 function App() {
   
