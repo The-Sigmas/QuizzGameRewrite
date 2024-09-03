@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import '../../App.css'
-import Button from '../../components/Button.jsx'
+import '../App.css'
+import Button from '../components/Button.jsx'
 
 export default function Quiz( props ) {
   const questions=[
