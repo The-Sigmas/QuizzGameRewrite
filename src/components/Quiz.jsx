@@ -57,7 +57,7 @@ export default function Quiz(props) {
         setFeedback('');
       } else {
         // Reload page when all questions are answered
-        window.location.reload();
+        window.location.href = "/";
       }
     } else {
       setFeedback('Falsch');

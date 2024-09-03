@@ -14,8 +14,25 @@ function App() {
       <div className="">
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<div>Choose a quiz</div>} />
-              <Route path="autos" element={<Quiz q1="Sigma?" a1="Sigma" o11="sigma" o12="SIGMA" o13="Sigma" q2="Sigma?" a2="Sigma" o21="sigma" o22="SIGMA" o23="Sigma" q3="Sigma?" a3="Sigma" o31="sigma" o32="SIGMA" o33="Sigma" />} />
+            <Route index element={<h2 className="font-mono"></h2>} />
+              <Route path="autos" element={<Quiz 
+            q1="Sigma?" 
+            a1="Sigma" 
+            o11="sigma" 
+            o12="SIGMA" 
+            o13="Sigma" 
+            
+            q2="Sigma?" 
+            a2="Sigma" 
+            o21="sigma" 
+            o22="SIGMA" 
+            o23="Sigma" 
+            
+            q3="Sigma?" 
+            a3="Sigma" 
+            o31="sigma" 
+            o32="SIGMA" 
+            o33="Sigma" />} />
               {/*<Route path="cpu" element={<Quiz />} />
               <Route path="gpu" element={<Quiz />} />*/}
           </Route>
